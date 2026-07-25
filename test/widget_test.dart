@@ -1,0 +1,15 @@
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:steps/app/app.dart';
+
+void main() {
+  testWidgets('STEPS app launches', (WidgetTester tester) async {
+    await tester.pumpWidget(
+      const ProviderScope(
+        child: StepsApp(),
+      ),
+    );
+
+    expect(find.byType(StepsApp), findsOneWidget);
+  });
+}

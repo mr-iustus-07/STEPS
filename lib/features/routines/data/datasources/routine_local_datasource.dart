@@ -1,0 +1,4 @@
+class RoutineLocalDatasource {
+  const RoutineLocalDatasource();
+}
+

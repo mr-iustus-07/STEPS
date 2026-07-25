@@ -1,0 +1,4 @@
+class DashboardModel {
+  const DashboardModel();
+}
+
